@@ -1,0 +1,150 @@
+@import url('styles-reset.css');
+/* INITIAL */
+
+BODY {
+    padding: 5%;
+    background-color: #fff;
+    font-family: "Times New Roman", serif;
+    color: #000;
+    font-size: 90%;
+    text-align: center;
+}
+P {
+    line-height: 140%;
+}
+/* Page layout */
+
+#wrap {} #header {
+    margin: 55px 0 20px 0;
+}
+#report {
+    margin: 0 0 0 0;
+}
+#footer {
+    margin: 20px 0 20px 0;
+}
+/* HEADER */
+
+#header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+#header H1,
+#header H2,
+#header H3 {
+    text-align: center;
+}
+#header H1 {
+    margin-bottom: 10px;
+    font-size: 320%;
+}
+#header H2 {
+    margin-bottom: 15px;
+    font-size: 180%;
+}
+#header H2 STRONG {
+    font-family: Bold, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#header H3 {
+    margin-bottom: 35px;
+    font-size: 120%;
+    font-family: Italic, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#header H4 {
+    font-size: 120%;
+    text-align: right;
+}
+/* CONTENT */
+
+#report TABLE {
+    width: 100%;
+}
+#report TD {
+    vertical-align: middle;
+}
+/* User name and ballance */
+
+#report .text SPAN {
+    font-family: Italic, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#report .name {
+    margin-bottom: 20px;
+    padding: 0 10px 20px 10px;
+    border-bottom: 1px dashed #000;
+    font-size: 120%;
+}
+#report .ballance-text {
+    width: 100px;
+}
+#report .ballance-text P {
+    font-family: Italic, "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    line-height: 80%;
+}
+#report .ballance-text SPAN {
+    font-size: 70%;
+}
+#report .ballance-text EM {
+    font-style: normal;
+}
+#report .ballance {
+    width: 120px;
+}
+#report .ballance P {
+    font-size: 200%;
+}
+/* User IP, plan and state */
+
+#report .plan {
+    padding: 0 10px 40px 10px;
+    font-size: 120%;
+}
+#report .plan .status {
+    width: 220px;
+}
+#report .plan .status SPAN {
+    font-family: Italic, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#report .plan .status STRONG {
+    font-size: 140%;
+}
+/* Services and payments tables */
+
+#report .services {
+    margin-bottom: 40px;
+}
+#report .services H1,
+#report .payments H1 {
+    margin-bottom: 10px;
+    font-size: 180%;
+    font-family: Italic, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#report .services TD,
+#report .services TH,
+#report .payments TD,
+#report .payments TH {
+    padding: 10px;
+    border-top: 1px dotted #000;
+    border-bottom: 1px dotted #000;
+}
+#report .services TH,
+#report .payments TH {
+    font-family: Italic, "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 120%;
+}
+#report .services EM {
+    font-style: normal;
+}
+/* FOOTER */
+
+#footer {
+    margin-top: 40px;
+    padding: 10px 10px 10px 10px;
+    border-top: 1px solid #000;
+}
+#footer SPAN {
+    font-family: Italic, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#footer .email {
+    float: right;
+}

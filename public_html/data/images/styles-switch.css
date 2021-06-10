@@ -1,0 +1,69 @@
+/* Level 1 header icons */
+
+.credit H1 {
+    background: url('switch-credit-icon.png') 0 0 / 32px 32px no-repeat;
+}
+.turbo H1 {
+    background: url('switch-turbo-icon.png') 0 0 / 32px 32px no-repeat;
+}
+.freeze H1 {
+    background: url('switch-freeze-icon.png') 0 0 / 32px 32px no-repeat;
+}
+.switch H1 {
+    background: url('switch-switch-icon.png') 0 0 / 32px 32px no-repeat;
+}
+.content .turbo,
+.content .freeze,
+.content .switch {
+    padding-top: 30px;
+    background: url('general-separator-background.png') repeat-x top left;
+}
+IFRAME {
+    margin-top: 20px;
+    border: 0;
+}
+.instructions {
+    padding-top: 10px;
+    border-top: 1px solid #f1f1f1;
+}
+.instructions P {
+    padding-bottom: 10px;
+    line-height: 120%;
+    font-family: Italic, "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #ed2121;
+}
+.form {
+    margin: 20px 0 20px 0;
+    padding-left: 50px;
+}
+INPUT {
+    margin-top: 15px;
+    display: block;
+}
+.grey,
+.green,
+.red {
+    margin-left: -24px;
+    padding-left: 24px;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+.grey {
+    background: url('switch-led-grey.png') 0 0 / 22px 22px no-repeat;
+}
+.green {
+    background: url('switch-led-green.png') 0 0 / 22px 22px no-repeat;
+}
+.red {
+    background: url('switch-led-red.png') 0 0 / 22px 22px no-repeat;
+}
+.ok {
+    color: #6ea704;
+}
+.ok SPAN {
+    font-size: 90%;
+    color: #969696;
+}
+.error {
+    color: #ed2121;
+}

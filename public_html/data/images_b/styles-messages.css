@@ -1,0 +1,32 @@
+/* Level 1 header icons */
+.messages H1 {background:url('messages-write-icon.png') no-repeat;}
+.received H1 {margin-top:40px; background:url('messages-received-icon.png') no-repeat;}
+.sent H1 {margin-top:20px;background:url('messages-sent-icon.png') no-repeat;}
+
+/* Write form */
+.messages .helper {width:25%; padding-left:25px;}
+	.messages .helper LI {margin:8px 0 8px 0; padding:8px 5px 8px 5px; border-top:1px solid #f1f1f1; line-height:140%;}
+	.messages .helper H2 {margin:0 5px 0 5px; font-style:italic; line-height:30px; font-size:140%; color:#969696; white-space:nowrap;}
+	.messages .helper P {margin-bottom:-13px; line-height:100%;}
+	.messages .helper A {text-decoration:none; border-bottom:1px dashed #0cbcff;}
+	.messages .helper A:hover {border-bottom:1px dashed #ef6500;}
+	.messages .helper .instruction {line-height:120%; font-style:italic; color:#969696;}
+.messages FORM {text-align:center;}
+.messages TABLE {width:100%;}
+	.messages TEXTAREA {height:200px; width:100%; padding:3px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+	.messages .left {padding-top:15px; color:#969696;}
+		.messages .left INPUT {height:20px; width:30px; padding:0; border:0; background-color:#fff;}
+	.messages .submit {padding:10px 0 10px 0;}
+	.messages .rules {padding-top:10px; border-top:1px solid #f1f1f1;}
+		.messages .rules P {padding-bottom:10px; line-height:120%; font-style:italic; color:#969696;}
+
+/* Received and sent messages tables */
+.received TABLE, .sent TABLE {width:100%;}
+.received .date, .sent .date {background-color:#f0fbff; white-space:nowrap;}
+.received .message, .sent .message {background-color:#f9feff;}
+.received .read, .sent .read {background-color:#f0fbff; text-align:center;}
+.received .delete, .sent .delete {background-color:#f9feff; text-align:center;}
+.submit {margin-top:10px; text-align:right;}
+.received H2 {padding:0 0px 10px 40px; font-style:italic; line-height:120%; color:#ed2121;}
+.received .read, .received .delete, .sent .read, .sent .delete {width:12%;}
+.received .date, .sent .date {width:17%;}

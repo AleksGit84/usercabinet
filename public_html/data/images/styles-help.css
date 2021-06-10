@@ -1,0 +1,113 @@
+/* Level 1 header icons */
+
+.help H1 {
+    margin-bottom: 20px;
+    background: url('help-help-icon.png') 0 0 / 32px 32px no-repeat;
+}
+/* Table of content */
+
+.help .toc H1 {
+    height: 30px;
+    padding-left: 0;
+    line-height: 30px;
+    font-size: 140%;
+    color: #969696;
+    background: none;
+    display: block;
+}
+.help .toc {
+    width: 40%;
+    margin: 0 0 15px 15px;
+    padding: 10px 0 10px 20px;
+    border-left: 1px solid #e7e7e7;
+    float: right;
+}
+.help .toc LI {
+    padding: 5px 0 5px 0;
+    line-height: 120%;
+}
+.help .toc SPAN {
+    color: #969696;
+}
+.help .toc A {
+    text-decoration: none;
+    border-bottom: 1px dotted #0cbcff;
+}
+.help .toc A:hover {
+    border-bottom: 1px dotted #ef6500;
+}
+.help .toc UL UL {
+    margin-left: 15px;
+}
+/* Help text styles */
+
+.help H2 {
+    margin: 25px 0 10px 0;
+    font-size: 180%;
+    color: #7abd19;
+}
+.help H3 {
+    margin: 25px 0 10px 0;
+    font-size: 140%;
+    color: #969696;
+}
+.help H4 {
+    margin-bottom: 15px;
+    font-size: 180%;
+    color: #969696;
+}
+.help P {
+    padding-bottom: 10px;
+}
+.help .intro {
+    font-size: 110%;
+}
+.help STRONG {
+    font-family: Bold, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.help EM {
+    font-family: Italic, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.help .center {
+    text-align: center;
+}
+.help .image-right {
+    margin: 10px 0 10px 10px;
+    padding: 5px;
+    border: 1px dotted #e6e6e6;
+    float: right;
+}
+.help .image-left {
+    margin: 10px 10px 10px 0;
+    padding: 5px;
+    border: 1px dotted #e6e6e6;
+    float: left;
+}
+.help .image-center {
+    text-align: center;
+}
+.help .image-center IMG {
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    border: 1px dotted #e6e6e6;
+}
+/* Direct refill */
+
+.help ol {
+    margin: 0px 100px 0 40px;
+    list-style: decimal;
+}
+.help ol li {
+    padding: 0 0 10px 0;
+    color: #969696;
+}
+.help ol li span {
+    color: #000;
+    line-height: 140%;
+}
+.help ol li strong {
+    font-family: Bold, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.help ol li iframe {
+    margin-bottom: -2px;
+}

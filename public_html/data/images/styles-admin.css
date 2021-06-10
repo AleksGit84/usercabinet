@@ -1,0 +1,89 @@
+/* INITIAL */
+
+BODY {
+    padding: 15px;
+    background-color: #f7fcfe;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #3f3f3f;
+    font-size: 80%;
+    text-align: center;
+}
+A {
+    color: #266eff;
+    text-decoration: underline;
+}
+A:hover {
+    color: #ef6500;
+}
+P {
+    line-height: 140%;
+}
+TD TD TD TD TD {
+    padding: 5px;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+TD TD TD TD {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+TD TD TD {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+TD TD {
+    border-radius: 0;
+    -moz-border-radius: 0;
+}
+TD {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+TD {
+    padding: 0;
+}
+TABLE TABLE TABLE TABLE {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+INPUT[type=text],
+INPUT[type=button],
+INPUT[type=submit],
+INPUT[type=password],
+SELECT {
+    height: 30px;
+    margin-top: 10px;
+    font-size: 110%;
+}
+LI {
+    margin: 0 -10px 0 -10px;
+    padding: 5px 5px 0 5px;
+    color: #eee;
+    line-height: 100%;
+    list-style: disc;
+    border-top: 1px dashed #eee;
+    line-height: 100%;
+}
+LI:hover {
+    color: #ef6500;
+}
+LI A {
+    min-width: 205px;
+    padding: 3px 3px 1px 3px;
+    display: block;
+    font-size: 110%;
+    color: #444;
+    text-decoration: none;
+}
+LI A:hover {
+    text-decoration: underline;
+}
+TD {
+    max-width: 400px;
+    font-size: 80%;
+}
+H1 {
+    margin: 10px 0 5px 0;
+    font-size: 140%;
+    color: #999;
+}

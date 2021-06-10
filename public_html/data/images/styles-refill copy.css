@@ -1,0 +1,321 @@
+/* Level 1 header icons */
+
+.refill H1 {
+    background: url('refill-refill-icon.png') 0 0 / 32px 32px no-repeat;
+}
+/* Tabs */
+
+.refill .tab {
+    height: 44px;
+    width: 650px;
+    margin: 25px 0 0 42px;
+    padding: 10px;
+    font-size: 100%;
+    color: #fff;
+}
+.refill .tab A {
+    text-decoration: none;
+    border-bottom: 1px dashed #0cbcff;
+    white-space: nowrap;
+}
+.refill .tab A:hover {
+    border-bottom: 1px dashed #ef6500;
+}
+.refill H2 {
+    white-space: nowrap;
+}
+.refill .pin .tab {
+    background: url('refill-submenu-pin.png') 0 0 / 610px 44px no-repeat;
+}
+.refill .pin .tab H2 {
+    margin-left: 15px;
+    margin-right: 40px;
+    float: left;
+}
+.refill .pin .tab A {
+    margin-right: 50px;
+    float: left;
+}
+.refill .ccd .tab {
+    background: url('refill-submenu-ccd.png') 0 0 / 610px 44px no-repeat;
+}
+.refill .ccd .tab H2 {
+    margin-left: 40px;
+    margin-right: 35px;
+    float: left;
+}
+.refill .ccd .tab A {
+    margin-left: 16px;
+    float: left;
+}
+.refill .direct .tab {
+    background: url('refill-submenu-direct.png') 0 0 / 610px 44px no-repeat;
+}
+.refill .direct .tab H2 {
+    margin-left: 28px;
+    float: left;
+}
+.refill .direct .tab A {
+    margin-left: 16px;
+    margin-right: 20px;
+    float: left;
+}
+/* Refill form */
+
+.refill .form {
+    margin-top: 10px;
+    position: absolute;
+}
+.refill .form TABLE {
+    font-size: 110%;
+}
+.refill .form TD {
+    height: 45px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.refill .form .label {
+    width: 160px;
+    padding-right: 15px;
+    text-align: right;
+    font-size: 90%;
+    color: #969696;
+}
+.refill .form .input-field {
+    height: 23px;
+    padding: 5px;
+    font-size: 120%;
+}
+.refill .pin .input-field {
+    width: 210px;
+}
+.refill .switch {
+    position: absolute;
+}
+.refill .switch A {
+    font-size: 110%;
+    text-decoration: none;
+    border-bottom: 1px dashed #0cbcff;
+}
+.refill .switch A:hover {
+    border-bottom: 1px dashed #ef6500;
+}
+/* Refill instructions */
+
+.refill .instruction {
+    margin-top: 30px;
+    padding-bottom: 280px;
+}
+.refill .pin .instruction .text {
+    padding: 190px 0 0 300px;
+}
+.refill .instruction P {
+    padding-bottom: 10px;
+}
+.refill .instruction EM {
+    font-family: Italic, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.refill .instruction STRONG {
+    font-family: Bold, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.refill .instruction .after {
+    margin-top: 15px;
+    color: #f06500;
+}
+.refill .instruction .after .big {
+    font-size: 18px;
+}
+/* Instruction for cards */
+
+.refill .card {
+    background: url('refill-card-image.png') no-repeat 0 3px;
+}
+.refill .card .switch {
+    margin: 365px 0 0 85px;
+}
+/* Instruction for cheque */
+
+.refill .cheque {
+    background: url('refill-cheque-image.png') no-repeat 0 3px;
+}
+.refill .cheque .switch {
+    margin: 560px 0 0 65px;
+}
+/* Instruction for Credit Cards */
+/* Instruction for cheque */
+
+.refill .ccd .instruction {
+    background: url('refill-ccd-image.png') no-repeat 70px 290px;
+}
+.refill .ccd .instruction .text {
+    padding: 290px 0 0 300px;
+}
+/* Refill form by Credit Card */
+
+.refill .ccd .long {
+    width: 210px;
+}
+.refill .ccd .short {
+    width: 135px;
+}
+.refill .qty STRONG {
+    padding: 0 9px 0 9px;
+    font-size: 160%;
+    color: #8e8e8e;
+}
+.refill .qty B {
+    font-size: 140%;
+}
+.refill .valid STRONG {
+    padding: 0 9px 0 9px;
+    font-size: 160%;
+    color: #8e8e8e;
+}
+.refill .valid-month {
+    height: 35px;
+    width: 50px;
+    font-size: 110%;
+}
+.refill .valid-year {
+    height: 35px;
+    width: 65px;
+    font-size: 110%;
+}
+.refill .sep TD {
+    padding-top: 10px;
+}
+.refill .valid-month SPAN {
+    display: none;
+}
+.refill .valid-year B {
+    color: #fff;
+}
+.refill .nominal A {
+    height: 21px;
+    width: 31px;
+    margin: 18px 8px 0 0;
+    display: block;
+    float: left;
+}
+.refill .nominal .fiveu {
+    background: url('refill-ccd-5u.png') no-repeat;
+}
+.refill .nominal .tenu {
+    background: url('refill-ccd-10u.png') no-repeat;
+}
+.refill .nominal .twentyu {
+    background: url('refill-ccd-20u.png') no-repeat;
+}
+.refill .nominal .fiftyu {
+    background: url('refill-ccd-50u.png') no-repeat;
+}
+.refill .disable {
+    height: 310px;
+    width: 425px;
+    margin-left: 42px;
+    background: url('refill-ccd-disable.gif');
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    position: absolute;
+    z-index: 999;
+}
+.refill .disable P {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 110%;
+    font-family: Bold, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.refill .warning {
+    padding: 12px;
+/*
+    border: 1px solid #CC0000;
+    border-radius: 3px;
+*/
+	background: #fc525b;
+    color: #fff;
+    font-size: 100%;
+    line-height: 120%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.refill .warning h3 {
+    margin-bottom: 5px;
+    font-size: 130%;
+}
+/* Direct refill */
+
+.refill .direct .images {
+    margin: 15px 0 0 70px;
+}
+.refill .direct p {
+    margin: 10px 100px 0 50px;
+}
+.refill .direct p em {
+    font-family: Italic, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.refill .direct ol {
+    margin: 20px 100px 0 70px;
+    list-style: decimal;
+}
+.refill .direct li {
+    padding: 0 0 10px 0;
+    color: #969696;
+}
+.refill .direct li span {
+    color: #000;
+    line-height: 140%;
+}
+.refill .direct li strong {
+    font-family: Bold, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.refill .direct li iframe {
+    margin-bottom: -2px;
+}
+/* JS POPUP */
+
+#basic-modal-content {
+    display: none;
+}
+#simplemodal-overlay {
+    background-color: #000;
+    cursor: wait;
+}
+#simplemodal-container {
+    height: 580px;
+    width: 450px;
+    background-color: #fff;
+    border: 2px solid #0cbcff;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    padding: 15px 0 0 15px;
+}
+#simplemodal-container a.modalCloseImg {
+    background: url(close.png) no-repeat;
+    width: 22px;
+    height: 22px;
+    display: inline;
+    z-index: 3200;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    cursor: pointer;
+}
+#simplemodal-container #basic-modal-content {
+    padding: 0;
+}
+.simplemodal-close-btm {
+    margin-top: -30px;
+    position: absolute;
+}
+.simplemodal-close-btm A {
+    text-decoration: none;
+    font-size: 120%;
+}
+.simplemodal-close-btm A SPAN {
+    border-bottom: 1px dashed #0cbcff;
+}
+.simplemodal-close-btm A:hover SPAN {
+    border-bottom: 1px dashed #ef6500;
+}

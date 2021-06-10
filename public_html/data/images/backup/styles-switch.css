@@ -1,0 +1,25 @@
+/* Level 1 header icons */
+.credit H1 {background:url('switch-credit-icon.png') no-repeat;}
+.turbo H1 {background:url('switch-turbo-icon.png') no-repeat;}
+.freeze H1 {background:url('switch-freeze-icon.png') no-repeat;}
+.switch H1 {background:url('switch-switch-icon.png') no-repeat;}
+
+.content .turbo, .content .freeze, .content .switch {padding-top: 30px; background: url('general-separator-background.png') repeat-x top left;}
+
+IFRAME {margin-top: 20px; border: 0;}
+
+.instructions {padding-top:10px; border-top:1px solid #f1f1f1;}
+	.instructions P {padding-bottom:10px; line-height:120%; font-style:italic; color:#ed2121;}
+
+.form {margin:20px 0 20px 0; padding-left:50px;}
+	INPUT {margin-top:15px; display:block;}
+
+.grey, .green, .red {margin-left: -24px; padding-left: 24px; background-repeat: no-repeat; background-position: 0 50%;}
+.grey {background-image: url('switch-led-grey.png');}
+.green {background-image: url('switch-led-green.png');}
+.red {background-image: url('switch-led-red.png');}
+
+
+.ok {color:#6ea704;}
+	.ok SPAN {font-size:90%; color:#969696;}
+.error {color:#ed2121;}

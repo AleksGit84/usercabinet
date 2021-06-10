@@ -1,0 +1,25 @@
+	#page .menu .general A {background:url('menu-general-icon-ie.png') no-repeat;}
+	#page .menu .general A:hover {background:url('menu-general-icon-ie.png') no-repeat 0 -40px;}
+	#page .menu .refill A {background:url('menu-refill-icon-ie.png') no-repeat;}
+	#page .menu .refill A:hover {background:url('menu-refill-icon-ie.png') no-repeat 0 -40px;}
+	#page .menu .payments A {background:url('menu-payments-icon-ie.png') no-repeat;}
+	#page .menu .payments A:hover {background:url('menu-payments-icon-ie.png') no-repeat 0 -40px;}
+	#page .menu .messages A {background:url('menu-messages-icon-ie.png') no-repeat;}
+	#page .menu .messages A:hover {background:url('menu-messages-icon-ie.png') no-repeat 0 -40px;}
+	#page .menu .password A {background:url('menu-password-icon-ie.png') no-repeat;}
+	#page .menu .password A:hover {background:url('menu-password-icon-ie.png') no-repeat 0 -40px;}
+	#page .menu .switch A {background:url('menu-switch-icon-ie.png') no-repeat;}
+	#page .menu .switch A:hover {background:url('menu-switch-icon-ie.png') no-repeat 0 -40px;}
+	#page .menu .help A {font-size:120%; background:url('menu-help-icon-ie.png') no-repeat;}
+	#page .menu .help A:hover {background:url('menu-help-icon-ie.png') no-repeat 0 -40px;}
+	
+	.refill .pin .tab A {margin-right:35px; float:right;}
+.refill .ccd .tab H2 {margin-right:14px; float:right;}
+
+.submit {margin:60px 0 0 120px; position:absolute;}
+
+.refill-process {padding-right:30px;}
+
+H1 {margin:5px 0 10px 0; padding:0 0 10px 10px;}
+
+#auth .submit {margin:0; position: relative;}

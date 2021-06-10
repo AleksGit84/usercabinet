@@ -1,0 +1,1 @@
+DD_belatedPNG.fix('.news .long H1, .news .short H1, .tourtable H1, .photos H1, .player-number');

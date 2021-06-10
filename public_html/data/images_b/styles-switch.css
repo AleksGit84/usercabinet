@@ -1,0 +1,18 @@
+/* Level 1 header icons */
+.switch H1 {background:url('switch-switch-icon.png') no-repeat;}
+
+.switch .instructions {padding-top:10px; border-top:1px solid #f1f1f1;}
+	.switch .instructions P {padding-bottom:10px; line-height:120%; font-style:italic; color:#ed2121;}
+
+/* On/off switch */
+.switch .off, .switch .on {height:100px; margin-top:30px; padding-left:70px;}
+	.switch .off P, .switch .on P {font-size:110%;}
+	.switch INPUT {margin-top:15px; display:block;}
+	
+/* Internet is ON */
+.switch .on {background:url('switch-on-icon.png') no-repeat;}
+	.switch .on STRONG {font-weight:bold; color:#7abd19;}
+
+/* Internet is OFF */
+.switch .off {background:url('switch-off-icon.png') no-repeat;}
+	.switch .off STRONG {font-weight:bold; color:#ed2121;}

@@ -1,0 +1,134 @@
+@import url('styles-reset.css');
+
+/* INITIAL */
+BODY {padding:5%; background-color: #fff; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color:#3f3f3f; font-size:90%; text-align:center;}
+A {color:#0cbcff; text-decoration:underline;}
+A:hover {color:#ef6500;}
+P {line-height:140%;}
+TD {vertical-align:top;}
+
+/* Page layout */
+#wrap {max-width:1200px; margin:0 auto;}
+#layout {width:100%;}
+	#layout .side {width:290px;}
+
+
+/* HEADER */
+#header .logo A {height:67px; width:270px; background:url('header-logo.png') no-repeat 50% 0; display:block;}
+#header .sublogo A {height:19px; width:215px; margin-top:20px; background:url('header-sublogo.png') no-repeat; display:block; float:left;}
+#header .sublogo H1 {margin:24px 0 0 219px; font-size:120%; color:#ccc;}
+#header .logout > A {height:16px; margin-top:25px; padding-left:20px; background:url('header-logout-icon.png') no-repeat; font-size:110%; text-decoration:none; display:block; float:right;}
+	#header .logout > A SPAN {text-decoration:underline;}
+	
+#header .un {
+	height:16px; 
+	margin-top:25px; 
+	margin-right: 20px; 
+	padding-left:20px; 
+	background:url('header-un-icon.png') no-repeat; 
+	font-size:110%; 
+	text-decoration:none; 
+	display:block; 
+	float:right;
+}
+
+#header .un iframe {margin-top: -3px;}
+
+#header .un a.no {
+	text-decoration: none;
+	color: #3f3f3f;
+	cursor: help; 
+}
+
+#header .un .tooltip {
+	width: 240px;
+	margin: 15px 0 0 -90px;
+	padding-top: 15px;
+	background: url('header-un-arrow.png') no-repeat 50% 8px;
+	display: none;
+	position: absolute;
+}
+
+#header .un .tooltip .border {
+	width: 240px;
+	padding: 6px;
+	border: 1px solid #e6e6e6;
+	background-color: #fff;
+	border-radius: 4px;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+#header .un:hover .tooltip {display: block;}
+
+/*#header .un span {border-bottom: 1px dotted;}*/
+
+/* CONTENT */
+#page .side, #page .content {padding:25px 0 40px 0;}
+
+/* Menu */
+#page .menu {width:258px; background:url('menu-background.png') no-repeat; border-radius:8px; -moz-border-radius:8px;}
+	#page .menu A {height:40px; padding-left:50px; font-size:105%; line-height:40px; color:#002330; text-shadow:0 1px 0 #84e7fb; display:block; white-space:nowrap;}
+	#page .menu A:hover {color:#fff; text-shadow:0 1px 0 #3270a4;}
+	#page .menu .general {padding-top:10px;}
+	#page .menu .help {padding:6px 0 7px 0;}
+	
+	#page .menu .general A {background:url('menu-general-icon.png') no-repeat;}
+	#page .menu .general A:hover {background:url('menu-general-icon.png') no-repeat 0 -40px;}
+	#page .menu .refill A {background:url('menu-refill-icon.png') no-repeat;}
+	#page .menu .refill A:hover {background:url('menu-refill-icon.png') no-repeat 0 -40px;}
+	#page .menu .payments A {background:url('menu-payments-icon.png') no-repeat;}
+	#page .menu .payments A:hover {background:url('menu-payments-icon.png') no-repeat 0 -40px;}
+	#page .menu .messages A {background:url('menu-messages-icon.png') no-repeat;}
+	#page .menu .messages A:hover {background:url('menu-messages-icon.png') no-repeat 0 -40px;}
+	#page .menu .password A {background:url('menu-password-icon.png') no-repeat;}
+	#page .menu .password A:hover {background:url('menu-password-icon.png') no-repeat 0 -40px;}
+	#page .menu .switch A {background:url('menu-switch-icon.png') no-repeat;}
+	#page .menu .switch A:hover {background:url('menu-switch-icon.png') no-repeat 0 -40px;}
+	#page .menu .help A {font-size:120%; background:url('menu-help-icon.png') no-repeat;}
+	#page .menu .help A:hover {background:url('menu-help-icon.png') no-repeat 0 -40px;}
+
+/* Help box */	
+#page .info {width:258px; margin-top:20px; padding:10px 0 10px 0; background-color:#fbfbe2; border-radius:8px; -moz-border-radius:8px;}
+	#page .info H1 {height:32px; padding-left:50px; background:url('menu-info-icon.png') no-repeat 10px 0; line-height:32px; font-size:140%; font-style:italic; color:#0cbcff;display:block;}
+	#page .info P {padding:10px 15px 0 15px; font-size:90%; font-style:italic;}
+		#page .info P STRONG {font-weight:bold;}
+	#page .info .more {padding:10px 10px 0 0; font-style:italic; text-align:right; text-decoration:none; display:block;}
+		#page .info .more SPAN {text-decoration:underline;}
+	#page .info UL {margin:10px 10px 5px 18px;}
+		#page .info LI {padding:3px 0 3px 17px; background:url('general-list-bullet.png') no-repeat 0 11px; font-style:italic; line-height:120%;}
+
+/* Generic table styles */		
+.supertable {border-collapse:separate; border:1px solid #d6e9f1; border-radius:8px; -moz-border-radius:8px;}
+	.supertable TD, .supertable TH {padding:10px; border-bottom:1px solid #d6e9f1; vertical-align:middle; line-height:140%;}
+	.supertable TH {font-size:110%; color:#4999bb;}
+	.supertable .ending TD {height:8px; padding:0; border:0;}
+
+.content H1 {height:32px; margin-bottom:10px; padding-left:40px; line-height:32px; font-size:160%; font-style:italic; color:#7abd19; display:block;}
+.content INPUT {height:35px; padding:0 15px 0 15px; font-size:110%;}
+.iefix {color:#fff;}
+
+/* Confirm */
+.confirm {margin:15px 0 0 0; padding:7px; background-color:#0cbcff; border-radius:8px; -moz-border-radius:8px;}
+	.confirm H2 {font-size:160%; color:#fff;}
+
+/* LiveValidation */
+.LV_validation_message{font-size:80%; font-weight:bold; margin:0 0 0 5px; white-space:nowrap;}
+.LV_valid {color:#00CC00;}
+.LV_invalid {color:#CC0000;} 
+.LV_valid_field, input.LV_valid_field:hover, input.LV_valid_field:active, textarea.LV_valid_field:hover, textarea.LV_valid_field:active {border: 1px solid #00CC00;}
+.LV_invalid_field, input.LV_invalid_field:hover, input.LV_invalid_field:active, textarea.LV_invalid_field:hover, textarea.LV_invalid_field:active {border: 1px solid #CC0000;}
+		
+/* FOOTER */
+#footer .container {padding:15px; border-top:1px solid #b4b4b4;}
+#footer TABLE {width:100%;}
+
+#footer .copyright {padding:0 15px 0 165px; background:url('footer-logo.png') no-repeat;}
+	#footer .copyright P {font-size:90%; color:#969696; white-space:nowrap;}
+	#footer .copyright SPAN {padding-left:13px;}
+#footer .email {width:150px; padding:0 15px 0 35px; background:url('footer-mail-icon.png') no-repeat;}
+	#footer .email A {font-size:120%; color:#969696;}
+	#footer .email A:hover {color:#ef6500;}
+#footer .phone {width:100px; padding-left:35px; background:url('footer-phone-icon.png') no-repeat;}
+	#footer .phone P {font-size:160%; color:#969696; line-height:95%; white-space:nowrap;}
+	#footer .phone SPAN {font-size: 60%;}

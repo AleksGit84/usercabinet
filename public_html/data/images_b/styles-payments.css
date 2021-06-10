@@ -1,0 +1,10 @@
+/* Level 1 header icons */
+.payments H1 {background:url('payments-payments-icon.png') no-repeat;}
+
+/* Payments table */
+.payments TABLE {width:100%; margin-top:10px;}
+.payments TABLE .login {background-color:#f0fbff;}
+.payments TABLE .date {background-color:#f9feff;}
+.payments TABLE .sum {background-color:#f0fbff; color:#6ea704; font-size:140%;}
+.payments TABLE .currency {background-color:#f9feff;}
+.payments TABLE .comments {background-color:#f0fbff;}

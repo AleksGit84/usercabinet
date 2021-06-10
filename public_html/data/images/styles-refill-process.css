@@ -1,0 +1,114 @@
+@import url('styles-reset.css');
+/* INITIAL */
+
+@font-face {
+    font-family: 'Regular';
+    src: url('fonts/regular.eot');
+    src: url('fonts/regular.eot?#iefix') format('embedded-opentype'), url('fonts/regular.woff2') format('woff2'), url('fonts/regular.woff') format('woff'), url('fonts/regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* INITIAL */
+BODY {
+    padding: 5%;
+    background-color: #fff;
+    font-family: Regular, "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #3f3f3f;
+    font-size: 95%;
+    text-align: center;
+    
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+A {
+    color: #3a82ed;
+    text-decoration: underline;
+}
+A:hover {
+    color: #e6332a;
+}
+INPUT {
+    height: 35px;
+    padding: 0 15px 0 15px;
+    font-size: 110%;
+}
+H1 {
+    margin: 15px 0 20px 0;
+    padding: 0 0 20px 10px;
+    font-size: 150%;
+    color: #1cc0ff;
+    border-bottom: 1px solid #1cc0ff;
+}
+.instructions P {
+    padding: 0 10px 10px 10px;
+    line-height: 140%;
+}
+.instructions .big {
+    font-size: 120%;
+}
+.instructions EM {
+}
+TABLE {
+    width: 100%;
+}
+TD {
+    padding: 10px 0 10px 0;
+    vertical-align: top;
+}
+.label {
+    width: 200px;
+    text-align: right;
+    font-size: 110%;
+    color: #969696;
+}
+.label EM {
+    margin: 4px 3px 0 0;
+    display: block;
+    font-size: 80%;
+    text-align: right;
+    line-height: 120%;
+    color: #3f3f3f;
+}
+.data {
+    padding-left: 10px;
+    font-size: 120%;
+    line-height: 110%;
+}
+.inunits .data {
+    font-size: 240%;
+    color: #7abd19;
+}
+.inhrn .data {
+    font-size: 240%;
+    color: #ff2a2a;
+}
+.inhrn .data SPAN {
+    font-size: 50%;
+    color: #3f3f3f;
+}
+.separator-before TD {
+    padding-bottom: 20px;
+}
+.separator TD {
+    padding-top: 20px;
+    border-top: 1px solid #d4d4d4;
+}
+.submit {
+    margin: 100px 0 0 320px;
+    position: absolute;
+}
+.result {
+    margin-top: 7px;
+    padding: 8px;
+    font-size: 110%;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+.success {
+    border: 1px solid #7abd19;
+    color: #7abd19;
+}
+.failear {
+    border: 1px solid #ff2a2a;
+    color: #ff2a2a;
+}

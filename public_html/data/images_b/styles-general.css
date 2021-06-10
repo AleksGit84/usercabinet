@@ -1,0 +1,63 @@
+/* Level 1 header icons */
+.general H1 {background:url('general-general-icon.png') no-repeat;}
+.services H1 {background:url('general-services-icon.png') no-repeat;}
+.reports H1 {background:url('general-reports-icon.png') no-repeat;}
+	.reports A {color:#7abd19;}
+	.reports A:hover {color:#ef6500;}
+	.reports A SPAN {font-style:italic; border-bottom:1px dashed #7abd19;}
+	.reports A, .reports .hide A {text-decoration:none; font-style:normal;}
+	.reports .hide A SPAN {font-style:italic; border-bottom:1px dashed #7abd19;}
+	.reports A:hover SPAN, .reports .hide A:hover SPAN {border-bottom:1px dashed #ef6500;}
+
+/* Login, name and ballance */	
+.general .name {width:100%; margin-bottom:15px; background:url('general-separator-background.png') repeat-x bottom left;}
+	.general .name .text {padding-bottom:15px;}
+		.general .text P, .general .status-text P, .general .start P, .general .end P {padding-bottom:7px; font-size:110%;}
+		.general .text SPAN, .general .status-text SPAN, .general .start SPAN, .general .end SPAN {font-size:90%; color:#969696;}
+	.general .ballance-text {width:155px; background:url('general-ballance-icon.png') no-repeat;}
+		.general .ballance-text P {padding-left:38px; line-height:80%; font-size:170%; color:#969696;}
+		.general .ballance-text SPAN {font-size:60%;}
+		.general .ballance-text EM {font-style:italic;}
+	.general .ballance {width:128px;}
+		.general .ballance P {height:47px; width:128px; background:url('general-ballance-background.png') no-repeat; border-radius:7px; -moz-border-radius:7px; text-align:center; line-height:47px; font-size:160%; color:#223a00; text-shadow:0 1px 0 #edffd3; display:block;}
+	.general .status-text {padding-top:10px; background:url('general-status-icon.png') no-repeat 0 16px;}
+		.general .status-text P {padding-left:40px; line-height:100%;}
+		.general .status {vertical-align:middle; font-size:110%;}
+
+
+/* Current and next plan, pay period */
+.general .plan {margin-bottom:0px;}
+	.general .plan TD {padding:0 50px 15px 0;}
+	.general .plan STRONG {font-size: 80%; font-weight: normal; color:#7abd19; display: block;}
+	.general .plan EM {font-style: italic;}
+.general .instructions {margin-bottom:40px; padding-top:10px; border-top:1px solid #f1f1f1;}
+	.general .instructions P {padding-bottom:10px; line-height:120%; font-style:italic; color:#ed2121;}
+	.general .instructions .more {color:#3f3f3f;}
+	.general .changeplan {color:#7abd19; font-size:90%;}
+		.general .plan EM A {color:#7abd19; font-style:italic; text-decoration:none; border-bottom:1px dashed #7abd19;}
+		.general .plan EM A:hover {color:#ef6500; border-bottom:1px dashed #ef6500;}
+
+
+/* Pay period */
+.general .period {margin-bottom:30px;}
+	.general .start {padding-right:15px;}
+	.general .end {padding-left:40px; background:url('general-period-icon.png') no-repeat 0 50%;}
+
+/* Services table */	
+.services TABLE {width:80%; margin-bottom:30px;}
+	.services .item {background-color:#f9feff;}
+	.services .price {width:20%; background-color:#f0fbff; color:#6ea704; font-size:140%;}
+	.services SPAN {font-size:80%; color:#969696;}
+	.services EM {font-style:italic;}
+	.services .total TD {border:0;}
+	.services .total .label {text-align:right; font-size:120%; font-weight:bold;}
+	.services .total .number {color:#6ea704; font-size:160%;}
+
+/* Reports list */	
+.reports .list {margin-bottom:10px;}
+	.reports .list LI {padding:6px 0 6px 30px; background:url('general-list-bullet.png') no-repeat 13px 13px;}
+	.reports .list A {color:#494949; text-decoration:none; border-bottom:1px dotted #afafaf;}
+	.reports .list A:hover {color:#ef6500; border-bottom:1px dotted #ef6500;}
+	
+/* Credit button */
+.creditbutton {height:50px; margin-bottom:15px; background:url('general-separator-background.png') repeat-x bottom left;}

@@ -1,0 +1,40 @@
+BODY {
+    background-color: #fff;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #3f3f3f;
+    font-size: 90%;
+}
+A {
+    color: #0cbcff;
+    text-decoration: underline;
+}
+A:hover {
+    color: #ef6500;
+}
+INPUT {
+    height: 35px;
+    padding: 0 15px 0 15px;
+    font-size: 100%;
+}
+TD {
+    vertical-align: middle;
+    padding-right: 5px;
+}
+.normal {
+    font-family: Italic, "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #969696;
+}
+.ok {
+    font-family: Italic, "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #6ea704;
+    font-size: 110%;
+}
+.ok SPAN {
+    font-size: 90%;
+    color: #969696;
+}
+.error {
+    font-family: Italic, "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #ed2121;
+    font-size: 110%;
+}

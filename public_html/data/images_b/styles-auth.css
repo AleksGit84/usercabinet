@@ -1,0 +1,130 @@
+@import url('styles-reset.css');
+
+/* INITIAL */
+BODY {padding:5%; background-color: #fff; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color:#3f3f3f; font-size:90%; text-align:center;}
+A {color:#0cbcff; text-decoration:underline;}
+A:hover {color:#ef6500;}
+P {line-height:140%;}
+TD {vertical-align:top;}
+
+/* Page layout */
+#wrap {text-align:center;}
+
+/* HEADER */
+#header {height:91px; width:282px; margin:0 auto; background:url('auth-logo.png') no-repeat;}
+
+/* CONTENT */
+#auth {margin-top:50px; text-align:center;}
+
+#auth H1 {margin-bottom:10px; text-align:center; font-size:220%;}
+#auth EM {font-style:italic; color:#969696;}
+
+/* Login */
+#auth .login TABLE {height:207px; width:287px; margin:0 auto; background:url('auth-login-background.png') no-repeat; border-radius:8px; -moz-border-radius:8px; -o-border-radius:8px;}
+#auth TD {text-align:center; vertical-align:middle;}
+#auth INPUT {height:35px; padding:0 15px 0 15px; font-size:110%;}
+#auth .label {height:30px; font-size:120%; color:#223a00; text-shadow:0 1px 0 #edffd3; vertical-align:bottom;}
+#auth .input {height:30px;}
+#auth .submit {height:60px;}
+#auth .input-field {height:23px; width:230px; padding:5px; font-size:120%;}
+#auth .submit INPUT {width:160px;}
+
+	/* Lost password */
+#auth .lostpass {
+	padding: 15px 0 15px 0;
+	text-align: center;
+}
+
+#auth .lostpass a {
+	font-style: italic;
+	text-decoration: none;
+	border-bottom: 1px dashed #0cbcff;
+}
+
+#auth .lostpass a:hover {
+	border-bottom: 1px dashed #ef6500;
+}
+
+#lostpass {
+	width: 563px;
+	height: 138px;
+	margin: 0 auto;
+	background: url('auth-lostpass.png') no-repeat;
+	display: none;
+}
+
+#lostpass .text {
+	width: 300px;
+	margin: 20px 0 0 13px;
+	position: absolute;
+}
+
+#lostpass p {
+	padding-bottom: 10px;
+	font-size: 90%;
+	line-height: 120%;
+}
+
+#lostpass .intro {
+	font-size: 100%;
+}
+
+#lostpass .tel span {
+	font-size: 90%;
+	color: #828282;
+}
+
+#lostpass .tel strong {
+	font-size: 150%;
+	color: #6a54a3;
+}
+
+
+#lostpass .numone {
+	margin: 26px 0 0 375px;
+	position: absolute;
+}
+
+#lostpass .numtwo {
+	margin: 50px 0 0 375px;
+	position: absolute;
+}
+
+#lostpass .hours {
+	margin: 79px 0 0 375px;
+	font-size: 90%;
+	font-style: italic;
+	color: #888;
+	position: absolute;
+}
+
+#lostpass .mail {
+	margin: 100px 0 0 375px;
+	font-size: 120%;
+	position: absolute;
+}
+
+	
+/* Success */
+#auth .success {padding-top:50px; background:url('auth-success-icon.png') no-repeat 50% 0;text-align:center;}
+#auth .success H1 {color:#7abd19;}
+#auth .user-login {margin-top:60px; text-align:center;}
+	#auth .user-login A {padding:15px 15px 15px 40px; background:url('auth-user-icon.png') no-repeat 15px 18px; font-size:120%; border:1px solid #0cbcff; border-radius:15px; -moz-border-radius:15px;}
+	#auth .user-login A:hover {border:1px solid #ef6500;}
+#auth .admin-login {margin-top:40px; text-align:center;}
+	#auth .admin-login A {padding-left:23px; background:url('auth-admin-icon.png') no-repeat 0 5px; font-size:110%;}
+#auth .ad {margin-top:80px; text-align:center;}
+
+/* Error */
+#auth .error {padding-top:50px; background:url('auth-error-icon.png') no-repeat 50% 0;text-align:center;}
+#auth .error H1 {color:#e64904;}
+#auth .relogin {margin-top:40px; text-align:center;}
+	#auth .relogin A {padding:0 0 3px 23px; background:url('auth-retry-icon.png') no-repeat 0 5px; font-size:110%;}
+
+/* Deny */
+#auth .deny {padding-top:50px; background:url('auth-deny-icon.png') no-repeat 50% 0;text-align:center;}
+#auth .deny H1 {color:#e64904;}
+
+/* Logout */
+#auth .logout {padding-top:50px; background:url('auth-logout-icon.png') no-repeat 50% 0;text-align:center;}
+#auth .logout H1 {color:#7abd19;}

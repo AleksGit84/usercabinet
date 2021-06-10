@@ -1,0 +1,245 @@
+@import url('styles-reset.css');
+/* CUSTOM FONT-FACES
+######################################### */
+
+@font-face {
+    font-family: 'Regular';
+    src: url('fonts/regular.eot');
+    src: url('fonts/regular.eot?#iefix') format('embedded-opentype'), url('fonts/regular.woff2') format('woff2'), url('fonts/regular.woff') format('woff'), url('fonts/regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Light';
+    src: url('fonts/light.eot');
+    src: url('fonts/light.eot?#iefix') format('embedded-opentype'), url('fonts/light.woff2') format('woff2'), url('fonts/light.woff') format('woff'), url('sfonts/light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* INITIAL */
+
+BODY {
+    padding: 5%;
+    background-color: #fff;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #3f3f3f;
+    font-size: 95%;
+    text-align: center;
+}
+A {
+    color: #3a82ed;
+    text-decoration: underline;
+}
+A:hover {
+    color: #ef6500;
+}
+P {
+    line-height: 140%;
+}
+TD {
+    vertical-align: top;
+}
+/* Page layout */
+
+#wrap {
+    text-align: center;
+}
+/* HEADER */
+
+#header {
+    height: 91px;
+    width: 282px;
+    margin: 0 auto;
+    background: url('auth-logo.png') 0 0 / 281px 91px no-repeat;
+}
+/* CONTENT */
+
+#auth {
+    margin-top: 50px;
+    text-align: center;
+}
+#auth H1 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 220%;
+    font-family: Light, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#auth EM {
+    color: #969696;
+}
+/* Login */
+
+#auth .login TABLE {
+    height: 207px;
+    width: 287px;
+    margin: 0 auto;
+    /*border: 1px solid #c3e6ff;*/
+    background: #2aa4ff;
+    border-radius: 4px;
+}
+
+#auth TD {
+    text-align: center;
+    vertical-align: middle;
+}
+#auth INPUT {
+    height: 35px;
+    padding: 0 15px 0 15px;
+    font-size: 110%;
+}
+#auth .label {
+    height: 30px;
+    font-size: 120%;
+    line-height: 140%;
+    color: #fff;
+    vertical-align: bottom;
+}
+#auth .input {
+    height: 30px;
+}
+#auth .submit {
+    height: 60px;
+}
+#auth .input-field {
+    height: 23px;
+    width: 230px;
+    padding: 5px;
+    font-size: 120%;
+}
+#auth .submit INPUT {
+    width: 160px;
+}
+/* Lost password */
+
+#auth .lostpass {
+    padding: 15px 0 15px 0;
+    text-align: center;
+}
+#auth .lostpass a {
+    text-decoration: none;
+    border-bottom: 1px dashed #0cbcff;
+}
+#auth .lostpass a:hover {
+    border-bottom: 1px dashed #ef6500;
+}
+#lostpass {
+    width: 563px;
+    height: 138px;
+    margin: 0 auto;
+    /*background: url('auth-lostpass.png') no-repeat;*/
+    display: none;
+}
+#lostpass .text {
+    width: 300px;
+    margin: 20px 0 0 13px;
+    position: absolute;
+}
+#lostpass p {
+    padding-bottom: 10px;
+    font-size: 90%;
+    line-height: 120%;
+}
+#lostpass .intro {
+    font-size: 100%;
+}
+#lostpass .tel {
+  font-size: 120%;
+  color: #3a82ed;
+}
+#lostpass .tel strong {
+}
+#lostpass .numone {
+    margin: 26px 0 0 375px;
+    position: absolute;
+}
+#lostpass .numtwo {
+    margin: 50px 0 0 375px;
+    position: absolute;
+}
+#lostpass .hours {
+    margin: 79px 0 0 375px;
+    font-size: 90%;
+    color: #888;
+    position: absolute;
+}
+#lostpass .mail {
+    margin: 100px 0 0 375px;
+    font-size: 120%;
+    position: absolute;
+}
+/* Success */
+
+#auth .success {
+    padding-top: 50px;
+    background: url('auth-success-icon.png') 50% 0 / 48px 48px no-repeat;
+    text-align: center;
+}
+#auth .success H1 {
+    color: #7abd19;
+}
+#auth .user-login {
+    margin-top: 60px;
+    text-align: center;
+}
+#auth .user-login A {
+    padding: 15px;
+    font-size: 120%;
+    border: 1px solid #3a82ed;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+#auth .user-login A:hover {
+    border: 1px solid #ef6500;
+}
+#auth .admin-login {
+    margin-top: 40px;
+    text-align: center;
+}
+#auth .admin-login A {
+    font-size: 110%;
+}
+#auth .ad {
+    margin-top: 80px;
+    text-align: center;
+}
+/* Error */
+
+#auth .error {
+    padding-top: 50px;
+    background: url('auth-error-icon.png') 50% 0 / 48px 48px no-repeat;
+    text-align: center;
+}
+#auth .error H1 {
+    color: #e64904;
+}
+#auth .relogin {
+    margin-top: 40px;
+    text-align: center;
+}
+#auth .relogin A {
+    padding: 0 0 3px 0;
+    font-size: 110%;
+}
+/* Deny */
+
+#auth .deny {
+    padding-top: 50px;
+    background: url('auth-deny-icon.png') 50% 0 / 48px 48px no-repeat;
+    text-align: center;
+}
+#auth .deny H1 {
+    color: #e64904;
+}
+/* Logout */
+
+#auth .logout {
+    padding-top: 50px;
+    background: url('auth-logout-icon.png') 50% 0 / 48px 48px no-repeat;
+    text-align: center;
+}
+#auth .logout H1 {
+    color: #7abd19;
+}
